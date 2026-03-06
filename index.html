@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Heat Cover - Умный чехол для автомобиля</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.3em;
+            opacity: 0.9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        
+        .cta-button:hover {
+            background: #764ba2;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        
+        .about {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚗 Smart Heat Cover</h1>
+        <p>Умный чехол для автомобиля с подогревом</p>
+    </header>
+    
+    <div class="container">
+        <section class="about">
+            <h2>О проекте</h2>
+            <p>Smart Heat Cover - инновационное решение для защиты и обогрева вашего автомобиля. Проект объединяет современные технологии IoT и умной домашней автоматизации для создания идеального решения для владельцев автомобилей.</p>
+        </section>
+        
+        <h2 style="text-align: center; margin: 40px 0;">Основные возможности</h2>
+        <div class="features">
+            <div class="feature-card">
+                <h3>🔥 Подогрев</h3>
+                <p>Встроенная система подогрева обеспечивает комфортную температуру в холодные дни и защищает лакокрасочное покрытие от обледенения.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>📱 Умное управление</h3>
+                <p>Контролируйте чехол через мобильное приложение из любой точки мира. Настройте расписание включения и отключения.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🛡️ Защита</h3>
+                <p>Защищает автомобиль от пыли, снега, дождя, ультрафиолета и других вредных внешних воздействий.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>⚡ Энергоэффективность</h3>
+                <p>Оптимизированная система питания обеспечивает низкое энергопотребление и длительное время работы.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🌡️ Датчики</h3>
+                <p>Встроенные датчики температуры и влажности обеспечивают умное управление системой подогрева.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>🔧 Простая установка</h3>
+                <p>Легко устанавливается на любой автомобиль без специальных инструментов и модификаций.</p>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin: 50px 0;">
+            <a href="https://github.com/hideralaobile-rgb/Smart-heat-cover" class="cta-button">Посмотреть на GitHub</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2026 Smart Heat Cover. Все права защищены. | <a href="https://github.com/hideralaobile-rgb" style="color: #667eea;">GitHub Profile</a></p>
+    </footer>
+</body>
+</html>
